@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/whoami/Projects/Set/include/Set.h
+iostream
+-
+vector
+-
+stdlib.h
+-
+time.h
+-
+utility
+-
+
+/home/whoami/Projects/Set/src/Set.cpp
+../include/Set.h
+/home/whoami/Projects/Set/include/Set.h
+
